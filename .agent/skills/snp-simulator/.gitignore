@@ -1,0 +1,21 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# --- Environment & Secrets ---
+.env
+.env.*
+
+# --- Google Antigravity ---
+.antigravity/
+
+# --- Project Data Outputs ---
+scripts/predictions.json

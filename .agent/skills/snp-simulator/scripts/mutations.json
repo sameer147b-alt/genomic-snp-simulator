@@ -1,0 +1,31 @@
+{
+    "wild_type_sequence": "AGGCCGCCGCGATCAACTCTGTTAGAGCGATATAAGGTGAATTTCCTCGGACCAGGGACTCACTGTGCGTCACGAGACCGAGGCAATGAGCAAGATAGCC",
+    "mutated_sequence": "AGGCCGCCGCGAGCAAATCTGTTAGAGCGATATAAGGTGAATTTCCTCGGACCACGGATTCACTGTGCGTCACGAGACCGAGGCAATGAGCGAGATAGCC",
+    "mutations": [
+        {
+            "index": 12,
+            "original": "T",
+            "mutated": "G"
+        },
+        {
+            "index": 54,
+            "original": "G",
+            "mutated": "C"
+        },
+        {
+            "index": 58,
+            "original": "C",
+            "mutated": "T"
+        },
+        {
+            "index": 16,
+            "original": "C",
+            "mutated": "A"
+        },
+        {
+            "index": 91,
+            "original": "A",
+            "mutated": "G"
+        }
+    ]
+}
