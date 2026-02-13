@@ -1,10 +1,20 @@
 from google import genai
+from dotenv import load_dotenv
 import json
 import os
 import time
 
-# Initialize the client with the API key
-client = genai.Client(api_key='YOUR_API_KEY_HERE')
+# Load environment variables from .env file (if present)
+load_dotenv()
+
+# Initialize the client with the API key from environment
+api_key = os.getenv("GEMINI_API_KEY")
+if not api_key:
+    raise EnvironmentError(
+        "GEMINI_API_KEY not found. "
+        "Set it in a .env file or export it as an environment variable."
+    )
+client = genai.Client(api_key=api_key)
 
 def main():
     # Determine file paths

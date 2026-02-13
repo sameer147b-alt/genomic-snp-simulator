@@ -1,0 +1,6 @@
+streamlit
+google-genai
+pandas
+stmol
+py3Dmol
+python-dotenv
