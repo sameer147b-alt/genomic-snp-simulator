@@ -3,4 +3,6 @@ google-genai
 pandas
 stmol
 py3Dmol
+ipython_genutils
+ipywidgets
 python-dotenv
