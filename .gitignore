@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# --- Environment & Secrets ---
+.env
+.env.*
+*.key
+
+# --- Google Antigravity ---
+.antigravity/
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# --- Project Data Outputs ---
+.agent/skills/snp-simulator/scripts/predictions.json
