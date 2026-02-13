@@ -24,6 +24,3 @@ venv/
 *.swp
 Thumbs.db
 .DS_Store
-
-# --- Project Data Outputs ---
-.agent/skills/snp-simulator/scripts/predictions.json
