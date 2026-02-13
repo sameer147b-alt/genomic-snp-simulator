@@ -1,0 +1,36 @@
+{
+    "wild_type_sequence": "AGGCCGCCGCGATCAACTCTGTTAGAGCGATATAAGGTGAATTTCCTCGGACCAGGGACTCACTGTGCGTCACGAGACCGAGGCAATGAGCAAGATAGCC",
+    "mutated_sequence": "AGGCCGCCGCGAGCAAATCTGTTAGAGCGATATAAGGTGAATTTCCTCGGACCACGGATTCACTGTGCGTCACGAGACCGAGGCAATGAGCGAGATAGCC",
+    "predictions": [
+        {
+            "index": 12,
+            "original": "T",
+            "mutated": "G",
+            "prediction": "It is most likely a missense mutation."
+        },
+        {
+            "index": 54,
+            "original": "G",
+            "mutated": "C",
+            "prediction": "A G to C mutation in a protein-coding region is most likely to result in a **missense** mutation, though synonymous and nonsense changes are also possible."
+        },
+        {
+            "index": 58,
+            "original": "C",
+            "mutated": "T",
+            "prediction": "A C to T mutation is most likely a missense mutation, resulting in a different amino acid."
+        },
+        {
+            "index": 16,
+            "original": "C",
+            "mutated": "A",
+            "prediction": "This C to A mutation is most likely to be a missense mutation."
+        },
+        {
+            "index": 91,
+            "original": "A",
+            "mutated": "G",
+            "prediction": "An A to G mutation in a protein-coding region is most likely a **missense** mutation."
+        }
+    ]
+}

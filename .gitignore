@@ -17,6 +17,7 @@ venv/
 
 # --- Google Antigravity ---
 .antigravity/
+.agent/
 
 # --- IDE & OS ---
 .vscode/
